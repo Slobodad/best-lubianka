@@ -1,0 +1,151 @@
+// Certificate
+
+.certificate {
+    padding: 36px 0 87px;
+    position: relative;
+
+    @media screen and (min-width: 1420px) {
+        padding: 66px 0 70px;
+        background: url('../img/certificate-bgr.png') no-repeat;
+        background-size: 1133px;
+        background-position: center;
+    }
+
+    &__title {
+        h2 {
+            margin-bottom: 28px;
+            font-family: 'CocoGothic', sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            text-align: center;
+            color: #343434;
+
+            @media screen and (min-width: 1420px) {
+                margin-bottom: 51px;
+                font-size: 40px;
+            }
+        }
+    }
+
+    &__sl {
+        @media screen and (min-width: 1024px) {
+            padding: 0 210px;
+        }
+        @media screen and (min-width: 1420px) {
+            padding: 0 410px;
+        }
+    }
+
+    &__slide {
+        padding-left: 14px;
+        width: 95% !important;
+
+        @media screen and (min-width: 1420px) {
+            margin-right: 49px;
+            width: 100% !important;
+        }
+
+        img {
+            width: 100%;
+
+            @media screen and (min-width: 1420px) {
+                width: 89%;
+            }
+        }
+    }
+}
+
+.left-arrow-certificate {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    bottom: 38px;
+    left: 115px;
+    right: auto;
+    transform: rotate(180deg);
+    opacity: 1;
+    border-radius: 50%;
+    background-image: none;
+    background-color: #8ed7ee;
+
+    @media screen and (min-width: 768px) {
+        left: 315px;
+        
+    }
+
+    @media screen and (min-width: 1024px) {
+        top: 50%;
+        left: 10%;
+        
+    }
+
+    @media screen and (min-width: 1420px) {
+        display: block !important;
+        width: 45px;
+        height: 45px;
+        top: 54%;
+    }
+
+
+    &:hover {
+        background-color: #8ed7ee;
+    }
+
+    i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        @media screen and (min-width: 1420px) {
+           font-size: 20px;
+        }
+    }
+}
+
+.right-arrow-certificate {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    bottom: 38px;
+    right: 115px;
+    left: auto;
+    opacity: 1;
+    border-radius: 50%;
+    background-image: none;
+    background-color: #8ed7ee;
+
+    @media screen and (min-width: 768px) {
+        right: 315px;
+        
+    }
+
+    @media screen and (min-width: 1024px) {
+        top: 50%;
+        right: 10%
+        
+    }
+
+    @media screen and (min-width: 1420px) {
+        display: block !important;
+        width: 45px;
+        height: 45px;
+        top: 54%;
+        right: 266px;
+        
+    }
+
+    &:hover {
+        background-color: #8ed7ee;
+    }
+
+    i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        @media screen and (min-width: 1420px) {
+            font-size: 20px;
+         }
+    }
+}

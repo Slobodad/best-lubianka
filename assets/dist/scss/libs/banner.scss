@@ -1,0 +1,369 @@
+// Banner
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+}
+
+.banner-slide {   
+
+    &__element-1 {
+        padding: 40px 0 89px;
+        background: url('../img/banner-bgr-1.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        @media screen and (min-width: 768px) {
+            padding: 100px;
+        }
+
+        @media screen and (min-width: 1024px) {
+            padding: 11px 0 0;
+        }
+
+        @media screen and (min-width: 1420px) {
+            padding: 0;
+        }
+    }
+
+    &__content {
+    padding: 0 5px;
+    text-align: left;
+
+    @media screen and (min-width: 768px) {
+        padding: 20px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        padding: 50px 0 50px 150px;
+    }
+
+    @media screen and (min-width: 1420px) {
+        padding: 191px 0 311px 122px;
+        width: 68%;
+    }
+
+        h2 {
+            margin-bottom: 16px;
+            font-family: 'CocoGothic', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #fff;
+
+            @media screen and (min-width: 1420px) {
+                margin-bottom: 28px;
+                font-size: 42px;
+            }
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+
+            &:first-child {
+                margin-bottom: 3px;
+            }
+        }
+
+        img {
+            margin-right: 9px;
+            width: 16px;
+
+            @media screen and (min-width: 1420px) {
+                width: 32px;
+            }
+        }
+
+        span {
+            font-family: 'CocoGothic', sans-serif;
+            font-size: 18px;
+            font-weight: 300;
+            color: #fff;
+
+            @media screen and (min-width: 1420px) {
+                font-size: 35px;
+            }
+        }
+    }
+
+    &__img {
+        display: none;
+
+        @media screen and (min-width: 1024px) {
+            display: block;
+        }
+
+        @media screen and (min-width: 1420px) {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(6%,0%);
+        }
+
+        img {
+            width: 100%;
+
+            @media screen and (min-width: 1024px) {
+                margin-bottom: -4px;
+            }
+        }
+    }
+
+    &__element-2 {
+        padding: 40px 0 89px;
+        background: url('../img/banner-bgr-2.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        @media screen and (min-width: 768px) {
+            padding: 100px;
+        }
+
+        @media screen and (min-width: 1024px) {
+            padding: 9px 0;
+            justify-content: space-around;
+        }
+
+        @media screen and (min-width: 1280px) {
+            padding: 43px 0;
+        }
+
+        @media screen and (min-width: 1360px) {
+            padding: 57px 0;
+        }
+
+        @media screen and (min-width: 1400px) {
+            padding: 60px 0;
+        }
+
+        @media screen and (min-width: 1420px) {
+            padding: 0;
+        }
+
+        .banner-slide__content {
+            @media screen and (min-width: 1024px) {
+                padding: 100px 0 150px 100px;
+                width: 70%;
+            }
+
+            @media screen and (min-width: 1420px) {
+                padding: 191px 0 311px 122px;
+                width: 68%;
+            }
+        }
+
+        .banner-slide__img {
+            @media screen and (min-width: 1024px) {
+                width: 25%;
+                position: absolute;
+                bottom: 0;
+                left: 63%;
+
+            }
+
+            @media screen and (min-width: 1420px) {
+                left: 53%;
+            }
+
+            img {
+
+                @media screen and (min-width: 1280px) {
+                    width: 93%;
+                }
+
+                @media screen and (min-width: 1420px) {
+                    width: 97%;
+                }
+            }
+            
+        }
+    }
+
+    &__element-3 {
+        padding: 40px 0 67px;
+        background: url('../img/banner-bgr-3.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        @media screen and (min-width: 768px) {
+            padding: 99px;
+        }
+
+        @media screen and (min-width: 1024px) {
+            padding: 11px 0 0;
+        }
+
+        @media screen and (min-width: 1360px) {
+            padding: 15px 0 0;
+        }
+
+        @media screen and (min-width: 1420px) {
+            padding: 0;
+        }
+        
+        .container {
+            padding: 0;
+
+            @media screen and (min-width: 768px) {
+                padding: 0 50px;
+            }
+
+            @media screen and (min-width: 1420px) {
+                padding: 0 10px;
+            }
+        }
+
+        .banner-slide__content {
+            padding: 0 0 0 15px;
+
+            @media screen and (min-width: 768px) {
+                padding: 20px;
+            }
+
+            @media screen and (min-width: 1024px) {
+                padding: 50px 0 50px 100px;
+            }
+
+            @media screen and (min-width: 1420px) {
+                padding: 191px 0 253px 122px;
+                width: 68%;
+            }
+
+            ul {
+                @media screen and (min-width: 1420px) {
+                    width: 68%;
+                }
+            }
+
+            li {
+                display: flex;
+                align-items: flex-start;
+
+                &:first-child {
+                    @media screen and (min-width: 1420px) {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+
+        .banner-slide__img {
+            @media screen and (min-width: 1420px) {
+                bottom: 0;
+                left: 51%;
+            }
+        }
+        
+    }
+}
+
+.swiper-pagination {
+    top: 216px;
+    left: -124px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    @media screen and (min-width: 768px) {
+        top: 298px;
+        left: -223px;
+        font-size: 19px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        top: 378px;
+        left: -453px;
+    }
+
+    @media screen and (min-width: 1420px) {
+        top: 632px;
+        left: -558px;
+    }
+}
+
+.swiper-button-prev {
+    width: 31px;
+    height: 31px;
+    top: -39px;
+    left: 245px;
+    right: auto;
+    transform: rotate(180deg);
+    opacity: 1;
+    border-radius: 50%;
+    background-image: none;
+    background-color: #ffffff;
+
+    &:hover {
+        background-color: #8ed7ee;
+    }
+
+    @media screen and (min-width: 768px) {
+        top: -180px;
+        left: 10px;
+    }
+
+    @media screen and (min-width: 1420px) {
+        width: 45px;
+        height: 45px;
+        top: -316px;
+        left: 0;
+    }
+
+    i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        @media screen and (min-width: 1420px) {
+           font-size: 20px;
+        }
+    }
+}
+
+.swiper-button-next {
+    width: 31px;
+    height: 31px;
+    top: -39px;
+    right: 15px;
+    left: auto;
+    opacity: 1;
+    border-radius: 50%;
+    background-image: none;
+    background-color: #ffffff;
+
+    &:hover {
+        background-color: #8ed7ee;
+    }
+
+    @media screen and (min-width: 768px) {
+        top: -180px;
+        right: 10px;
+    }
+
+    @media screen and (min-width: 1420px) {
+        width: 45px;
+        height: 45px;
+        top: -316px;
+        right: 0;
+    }
+
+    i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        @media screen and (min-width: 1420px) {
+            font-size: 20px;
+         }
+    }
+}
+

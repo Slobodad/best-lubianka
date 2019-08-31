@@ -1,0 +1,105 @@
+@import "libs/fontello";
+@import "libs/fonts";
+@import "libs/swiper";
+@import "libs/slick";
+@import "libs/fancybox";
+@import "libs/mCustomScrollbar";
+@import "libs/header";
+@import "libs/banner";
+@import "libs/services";
+@import "libs/working";
+@import "libs/indicators";
+@import "libs/team";
+@import "libs/review";
+@import "libs/certificate";
+@import "libs/welcometowork";
+@import "libs/contact";
+@import "libs/footer";
+@import "libs/modal";
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  font-family: 'Roboto Slab', serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul,ol{
+  margin: 0;
+}
+
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+ul li,ol li{
+  margin: 0;
+}
+
+a,button {
+  cursor: pointer;
+}
+
+.clearfix{
+  &:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    clear: both;
+    height: 0;
+  }
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative; 
+}
+
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1160px) {
+
+  .container{
+    padding: 0;
+    width: 1140px;
+  }
+
+}
+
+@media screen and (min-width: 1300px) {
+
+  .container{
+    padding: 0;
+    width: 1280px;
+  }
+
+}
+
+@media screen and (min-width: 1420px) {
+
+  .container{
+    padding: 0;
+    width: 1400px;
+  }
+
+}

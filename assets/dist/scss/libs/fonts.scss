@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Lato', sans-serif;
+    src: url('../fonts/lato-black-webfont.woff') format('woff'),
+    url('../fonts/lato-bold_0-webfont.woff') format('woff'),
+    url('../fonts/lato-light-webfont.woff') format('woff'),
+    url('../fonts/lato-medium-webfont.woff') format('woff'),
+    url('../fonts/lato-regular_0-webfont.woff') format('woff'),
+    url('../fonts/lato-semibold-webfont.woff') format('woff');
+	font-weight: 300, 400, 500, 600, 700, 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CocoGothic', sans-serif;
+    src: url('../fonts/CocoGothic.woff') format('woff'),
+    url('../fonts/CocoGothic-Bold.woff') format('woff'),
+    url('../fonts/CocoGothic-Light.woff') format('woff');
+	font-weight: 300, 400, 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Manrope', sans-serif;
+    src: url('../fonts/manrope-medium-webfont.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
